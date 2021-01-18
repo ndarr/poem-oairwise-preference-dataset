@@ -103,7 +103,6 @@ class DatasetEntry:
         for att_name in att_names:
             att = getattr(self, att_name)
             votes = Counter(att).most_common(3)
-            print(votes)
             # Check if votes are equally
             if len(votes) > 1 and votes[0][1] == votes[1][1] and votes[1][1] == votes[2][1]:
                 vote = "na"
