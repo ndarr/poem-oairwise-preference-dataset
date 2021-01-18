@@ -1,3 +1,5 @@
+from collections import Counter
+
 # Questions with their associated keyword for mapping
 questions = {
     "liking-poem": "Which poem do you like more?",
