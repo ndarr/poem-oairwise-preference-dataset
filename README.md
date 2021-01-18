@@ -5,7 +5,9 @@
 - requirements.txt
 - README.md
 
+
 # Structure
+
 #### source_corpora
 Files containing poems for each model/dataset taken into account while forming pairs. They may differ in their structure and should be integrated seperately.
 #### created_datasets
@@ -13,6 +15,7 @@ Output directory for created pairwise datasets.
 
 #### batch_results
 The annotations directly from AMT without modifications and merging.
+
 #### annotated_datasets
 Merged batch results without additional columns and information from AMT. With only one row containing all categories and annotations for one pair.
 
@@ -22,7 +25,10 @@ Simply install all dependencies in requirements.txt with pip:
 ```
 pip install -r requirements.txt
 ```
-
+Download the real poem corpus with the following command and unzip it in *source_corpora*:
+```shell
+wget https://github.com/anonymous-poetrybot-386/eacl-metrical-tagging-in-the-wild/raw/master/English/LargeCorpus/eng_gutenberg_measures_all.json.zip
+```
 # Pairwise dataset creation
 The non-annotated dataset can be created by executing the following script.
 ```
