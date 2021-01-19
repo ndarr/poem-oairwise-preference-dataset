@@ -47,5 +47,5 @@ Dataset can be further enrichen with more comparison with the existing pairs by 
 ## Annotation results review
 To review annotation results from AMT follow the code in *metrics.ipynb*
 
-## Consilidation of single annotations
-As the questions for annotations have been split up a consilidated dataset can be created by using the code in *consilidate.ipynb*
+## Consolidation of single annotations
+As the questions for annotations have been split up a consolidated dataset can be created by using the code in *consolidate.ipynb*
