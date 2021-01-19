@@ -99,7 +99,7 @@ class DatasetEntry:
         """ Reduces the lists of 3 votes in each category for a pair by taking the majority of votes"""
         consensus_obj = DatasetEntry(self.id, self.poem1, self.poem2, self.dataset1, self.dataset2)
         att_names = ["coherent", "grammatical", "moved", "real", "rhyming", "readable", "comprehensible", "intense",
-                     "liking"]
+                     "liking", "melodious"]
         for att_name in att_names:
             att = getattr(self, att_name)
             votes = Counter(att).most_common(3)
