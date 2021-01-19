@@ -41,8 +41,11 @@ python create_pairwise_dataset.py --prob-real 0.3 --output-filename custom_outpu
 
 The created datasets can then be used for annotation in AMT.
 
-## Annotation results review
-As the  
+## Dataset Extension
+Dataset can be further enrichen with more comparison with the existing pairs by following the code in *extend.ipynb*
 
-# Consilidation of single annotations
+## Annotation results review
+To review annotation results from AMT follow the code in *metrics.ipynb*
+
+## Consilidation of single annotations
 As the questions for annotations have been split up a consilidated dataset can be created by using the code in *consilidate.ipynb*
