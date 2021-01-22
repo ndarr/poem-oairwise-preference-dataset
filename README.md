@@ -1,10 +1,3 @@
-# TODOs
-- aggregate_poems.py
-- dataset_extension.ipynb
-- metrics.ipynb
-- requirements.txt
-- README.md
-
 # Pairwise Preference Dataset for Poems
 ## Structure
 
